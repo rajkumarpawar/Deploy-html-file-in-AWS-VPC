@@ -1,0 +1,64 @@
+/* Reset defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000; /* Black background */
+    color: #00ff00; /* Bright green text */
+}
+
+header {
+    background-color: #00d5ff; /* Bright green */
+    padding: 30px;
+    text-align: center;
+    border-bottom: 5px solid yellow;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #ffffff;
+    padding: 30px
+}
+
+nav a {
+    color: #000000;
+    background-color: #ffff00; /* Yellow background */
+    padding: 10px 30px;
+    margin:  10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #00ffff; /* Cyan on hover */
+    color: #000;
+}
+
+main {
+    background-color: #111111;
+    padding: 40px;
+    margin: 30px auto;
+    max-width: 800px;
+    border: 5px dashed #00ffff;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+main h2 {
+    color: #ff00ff;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #222222;
+    color: #ffcc00;
+    text-align: center;
+    padding: 20px;
+    font-size: 1
+}
